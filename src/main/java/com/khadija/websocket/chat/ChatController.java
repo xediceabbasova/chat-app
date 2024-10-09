@@ -12,6 +12,7 @@ import java.util.List;
 
 @Controller
 public class ChatController {
+
     private final SimpMessagingTemplate messagingTemplate;
     private final ChatMessageService service;
 
